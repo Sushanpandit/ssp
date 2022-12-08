@@ -1,0 +1,10 @@
+fw = open( 'apple.txt','w+')
+fw.write("Testing Writing to Files")
+fw.writelines("\nThe World Cup is the most prestigious association football tournament in the world, as well as the most widely viewed and followed single sporting event and \n using multiline \n this time")
+fw.close()
+fo=open("apple.txt","r+")
+fo.read()
+len(fo.read)
+print(fo.read())
+fo.close()
+        
